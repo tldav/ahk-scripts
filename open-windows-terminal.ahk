@@ -24,7 +24,9 @@
   ; Else it's not already open, so launch it.
   else
   {
-    Run, *RunAs wt
+    Run, wt
+    ; to run as administrator, use: Run, *RunAs wt
+
   }
 }
 
